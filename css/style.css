@@ -1,0 +1,117 @@
+/*
+-----------
+Reset
+-----------
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+------------
+Debug
+------------
+*/
+
+.debug header {
+    height: 130px;
+    background-color: #DAA51F;
+}
+
+.debug footer {
+    height: 90px;
+    background-color: #ADD8E6;
+}
+
+
+
+.debug .col {
+    flex-grow: 0;
+}
+
+
+
+.debug .col-big {
+    background-color: #800080;
+    min-height: 450px;
+    
+}
+
+.debug .col-small {
+    background-color: #EF82EE;
+    min-height: 250px;
+}
+
+
+/*
+-----------
+Common
+-----------
+*/
+
+body {
+    padding: 20px;
+}
+
+/*
+-----------
+Header
+-----------
+*/
+
+
+header {
+    margin-bottom: 20px;
+ 
+}
+
+
+
+
+/*
+-----------
+Main
+-----------
+*/
+
+
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 -10px 20px -10px;
+    
+}
+
+.col {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.col-big {
+    width: calc(60% - 20px);
+}
+
+.col-small {
+    width: calc(40% - 20px);
+}
+
+
+/*
+-----------
+Footer
+-----------
+*/
+
+footer {
+    margin-top: 20px;
+}
+
+
+ul {
+    display: flex;
+}
